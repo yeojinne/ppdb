@@ -21,7 +21,7 @@ require_once("../dompdf/autoload.inc.php");
 use Dompdf\Dompdf;
 $dompdf = new Dompdf();
 $query = mysqli_query($conn,"select * from userdata where nisn='$u'");
-$html = '
+$html =' 
 <center><h3>Daftar Pendaftaran SMK Richards Lab (Berbasis Online)</h3></center><hr/><br/>';
 $html .= '<div class="row mt-5 mb-5">
 <div class="col-12">
